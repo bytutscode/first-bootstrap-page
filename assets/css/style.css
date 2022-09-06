@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: #313643;
+}
+.nav-item {
+    padding: 10px 20px;
+    font-size: 17px;
+}
+.nav-item a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+.first-bg {
+    background-image: url("../images/img1.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+.conteudo {
+    text-shadow: 1px 2px 5px black;
+}
+
+.text-conteudo {
+    background-color: #eeeeee;
+}
+.spanc {
+    font-size: 17px;
+}
+.row>*{
+}
+.desc {
+    font-size: 14px;
+}
+.second-bg {
+    background-image: url("../images/imgbg2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+    padding: 0;
+}
+.third-bg {
+    background-image: url("../images/imgbg3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+button a {
+    text-decoration: none;
+}
+.row {
+    margin: 0;
+}
+
+.contact-us {
+    max-width: 750px;
+    width: 100%;
+    background-color: transparent;
+}
+.contact-us p {
+    background-color: #eee;
+}
+footer a {
+    text-decoration: none;
+}
+
+footer p {
+    max-width: 400px;
+    width: 100%;
+    font-size: 13px;
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #333;
+    opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #333;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color: #333;
+}
